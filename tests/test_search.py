@@ -4,7 +4,6 @@ import copy
 # define boards for the tests
 # HINT: I recommend you plot these boards
 board0 = Board([Territory(territory_id=i, player_id=1, armies=i%5+1) for i in range(42)])
-
 board1 = copy.deepcopy(board0)
 board1.set_owner(3,0)
 board1.set_armies(3,500)
