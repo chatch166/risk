@@ -189,7 +189,7 @@ class Board(object):
         visited = set()
         visited.add(source)
 
-        while queue is not None:
+        while queue:
             current_territory = queue.popleft()
             if current_territory == target:
                 return dictionary[current_territory]
@@ -234,7 +234,7 @@ class Board(object):
         visited = set()
         visited.add(source)
 
-        while queue is not None:
+        while queue:
             current_territory = queue.popleft()
             if current_territory == target:
                 return True
@@ -323,7 +323,7 @@ class Board(object):
         visited = set()
         visited.add(source)
 
-        while queue is not None:
+        while queue:
             current_territory = queue.popleft()
             if current_territory == target:
                 return True
