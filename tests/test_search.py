@@ -50,7 +50,6 @@ def test__is_valid_path_6():
     assert not board5.is_valid_path([5,37,4,34,35,36,0,6,31])
     
 
-
 def test__is_valid_attack_path_1():
     assert not board1.is_valid_attack_path([])
 

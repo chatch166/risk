@@ -29,7 +29,7 @@ and drawing an edge between two countries whenever the two countries are adjacen
 <img width=500px src=img/board5_graph.png>
 </p>
 
-In the game of Risk, armies from one territory attack another territory following paths along this graph,
+In the game o Risk, armies from one territory attack another territory following paths along this graph,
 and so you must implement algorithms that would help an AI determine which are the best paths to attack along.
 
 ### Path verification
